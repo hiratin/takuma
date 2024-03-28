@@ -1,0 +1,18 @@
+current directory: /Users/makinotomomi/projects/takuma/vendor/bundle/ruby/3.3.0/gems/racc-1.7.3/ext/racc/cparse
+/Users/makinotomomi/.rbenv/versions/3.3.0/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/makinotomomi/projects/takuma/vendor/bundle/ruby/3.3.0/gems/racc-1.7.3/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20240328-22719-aakjn5 sitelibdir\=./.gem.20240328-22719-aakjn5 clean
+
+current directory: /Users/makinotomomi/projects/takuma/vendor/bundle/ruby/3.3.0/gems/racc-1.7.3/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20240328-22719-aakjn5 sitelibdir\=./.gem.20240328-22719-aakjn5
+compiling cparse.c
+linking shared-object racc/cparse.bundle
+
+current directory: /Users/makinotomomi/projects/takuma/vendor/bundle/ruby/3.3.0/gems/racc-1.7.3/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20240328-22719-aakjn5 sitelibdir\=./.gem.20240328-22719-aakjn5 install
+/opt/homebrew/bin/ginstall -c -m 0755 cparse.bundle ./.gem.20240328-22719-aakjn5/racc
+
+current directory: /Users/makinotomomi/projects/takuma/vendor/bundle/ruby/3.3.0/gems/racc-1.7.3/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20240328-22719-aakjn5 sitelibdir\=./.gem.20240328-22719-aakjn5 clean
