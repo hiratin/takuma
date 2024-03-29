@@ -1,8 +1,10 @@
-.container.mt-5.d-flex.justify-content-center
-  .row{ style: "max-width: 600px; margin-top: 4vh; "}
-    .col.p-0
+= render partial: 'layouts/header'
+
+.top_wrapper.mt-5.d-flex.justify-content-center
+  .container.p-0{ style: "max-width: 600px; width: 60%; "}
+    .col.d-flex.justify-content-center
       .top_img
         = image_tag "top.jpg", alt: "アーティスト画像", class: "img-fluid", style: "max-width:600px;" 
   
-    %span.p-0.text-end.small{ style: "color: #e2e2e2;"} photo by yuki sato
+    %span.d-flex.justify-content-end.small{ style: "color: #e2e2e2;"} photo by yuki sato
     
